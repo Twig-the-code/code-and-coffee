@@ -1,0 +1,22 @@
+{
+  "name": "code-and-coffee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twig-the-code/code-and-coffee.git"
+  },
+  "keywords": [
+    "twig-the-code"
+  ],
+  "author": "Aki Salmi <aki@rinkkasatiainen.fi> (http://rinkkasatiainen.fi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twig-the-code/code-and-coffee/issues"
+  },
+  "homepage": "https://github.com/Twig-the-code/code-and-coffee#readme"
+}
