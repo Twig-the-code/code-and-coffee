@@ -12,3 +12,5 @@
  - mitä tapahtuu, kun joku toinen on tehnyt muutoksia?
 
  ## Tsemppiä!
+
+ koodimuijat
