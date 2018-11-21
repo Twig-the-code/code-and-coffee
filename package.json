@@ -1,22 +1,25 @@
 {
-  "name": "code-and-coffee",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "foo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Twig-the-code/code-and-coffee.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "twig-the-code"
-  ],
-  "author": "Aki Salmi <aki@rinkkasatiainen.fi> (http://rinkkasatiainen.fi)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Twig-the-code/code-and-coffee/issues"
-  },
-  "homepage": "https://github.com/Twig-the-code/code-and-coffee#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
