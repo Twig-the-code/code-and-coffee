@@ -65,7 +65,7 @@
       width: 100%;
       padding: 0 20px;
       color: #222;
-      font: 28px 'Sacramento', cursive;
+      font: 22px 'Lato', cursive;
       text-align: center;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -117,7 +117,7 @@
   }
   
   .tag-1-side.is-back .tag-1-top:before {
-      background: #e44f47;
+      background:turquoise;
   }
   
   .tag-1-text {
@@ -133,7 +133,7 @@
   }
   
   .tag-1-side.is-back .tag-1-text {
-      background: #e44f47;
+      background:turquoise;
       color: #fff;
   }
   
