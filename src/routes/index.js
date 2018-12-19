@@ -8,5 +8,5 @@ import ChristmasCard from "../components/ChristmasCard"
 
 export default <Switch>
   <Route exact path="/" component={App} />
-  <Route exact path="/anna" component={ChristmasCard} />
+  <Route exact path="/:name" component={ChristmasCard} />
 </Switch>
