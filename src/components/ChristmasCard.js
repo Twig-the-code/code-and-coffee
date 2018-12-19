@@ -56,7 +56,13 @@ class ChristmasCard extends Component {
     
                 <div class="tag-side tag-3-side">
                     <div class="tag-text tag-3-text">
+<<<<<<< HEAD
                         {this.props.cardThree}
+=======
+
+                        {this.props.cardThree}
+
+>>>>>>> lisätty text ja button -tyylit
                         <div class="rule-shape">&#10052;</div>
                     </div>
                 </div>

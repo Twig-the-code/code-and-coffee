@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      names : ["a","b","c","d","skorg"]
+      names : []
     }
   }
   handleClick(event){
@@ -23,8 +23,8 @@ class App extends Component {
     return (
       <div className="App">
         <EventDetails></EventDetails>
-        <input type = "button" onClick = {e => this.handleClick(e)}></input>
         <Register></Register>
+        <input type="button" className="corners" value="paina tästä" onClick = {e => this.handleClick(e)}></input>
         <NameList
           names = {this.state.names}
         />

@@ -6,7 +6,7 @@ class Register extends Component {
   render() {
     return (
       <div className="register">
-      <input type="text" ></input>
+      <input type="text" className="corners"></input>
 
         
       </div>
