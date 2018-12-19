@@ -8,7 +8,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: darkslategrey;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +17,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+#this-is-important{
+  font-size: 30px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.punainen{
+  color: red;
+}
+.click-me{
+  font-size: 3em;
 }
 
 .App-link {
