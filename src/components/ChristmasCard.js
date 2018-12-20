@@ -104,8 +104,10 @@ class Wrapper extends Component {
     console.log(this.props )
     const name = this.props.match.params.name || "emmi"
     db.collection("christmasCard").doc(name).get().then(x => {
-      const {cardOne, cardOneBack, cardTwo, cardTwoBack, cardThree} = x.data()
-      this.setState({cards: {cardOneBack, cardOne, cardTwo, cardTwoBack, cardThree}})
+      if(x.data()){
+        const {cardOne, cardOneBack, cardTwo, cardTwoBack, cardThree} = x.data()
+        this.setState({cards: {cardOneBack, cardOne, cardTwo, cardTwoBack, cardThree}})
+      }
     });
   }
 
